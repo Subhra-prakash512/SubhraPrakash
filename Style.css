@@ -1,0 +1,803 @@
+
+
+
+* {
+    padding: 0;
+
+}
+
+body {
+
+    background-color: rgb(29, 29, 39);
+}
+
+
+@media screen and (min-width: 1020px) {
+
+    #id{
+        visibility: hidden;
+    }
+
+    :root {
+        --center-x: 50%;
+        --center-y: 50%;
+    }
+    
+.card {
+    height: 450px;
+    width: 320px;
+    border: 3px solid aqua;
+    position: absolute;
+    top: var(--center-y);
+    left: var(--center-x);
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: black;
+    cursor: pointer;
+
+    #top-cir {
+        clip-path: circle(54% at 0 0);
+        background-color: aqua;
+        height: 370px;
+        width: 370px;
+        position: relative;
+
+
+    }
+
+    #img {
+        height: 150px;
+        width: 150px;
+        border: 4px solid;
+        border-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+
+
+    #name {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Calibri";
+        font-weight: 900;
+        white-space: nowrap;
+        font-size: 160%;
+        font-style: oblique;
+    }
+
+
+    #prof {
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Hind Mysuru", sans-serif;
+        font-weight: 500;
+        white-space: nowrap;
+        font-size: 110%;
+        color: rgba(209, 200, 200, 0.878);
+    }
+
+    #hire {
+        position: absolute;
+        left: 56%;
+        top: 70%;
+
+        height: 35px;
+        width: 110px;
+        border-radius: 50px;
+        background-color: aqua;
+        border: 0px solid aqua;
+        color: black;
+        font-family: "Calibri";
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 0px 0px white;
+        cursor: pointer;
+
+
+
+
+    }
+
+    #hire:hover {
+        box-shadow: 0px 0px 15px 5px white;
+
+
+    }
+
+
+    #project {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+
+        height: 35px;
+        width: 110px;
+        border-radius: 50px;
+        background-color: aqua;
+        border: 0px solid aqua;
+        color: black;
+        font-family: "Calibri";
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #project:hover {
+        box-shadow: 0px 0px 15px 5px white;
+
+
+    }
+
+    #edu_skill{
+        visibility: hidden;
+
+
+    }
+
+    #about{
+        visibility: hidden;
+
+
+    }
+
+    #facebook {
+        position: absolute;
+        top: 3%;
+        left: 90%;
+
+    }
+
+    #linkdin {
+        position: absolute;
+        top: 10%;
+        left: 90%;
+
+    }
+
+    #mail {
+        position: absolute;
+        top: 17%;
+        left: 90%
+    }
+
+}
+
+
+.about_me {
+
+    height: 450px;
+    width: 320px;
+    border: 3px solid aqua;
+    position: absolute;
+    top: var(--center-y);
+    left: var(--center-x);
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: black;
+    z-index: -1;
+    transition: left 2s;
+
+    #am1 {
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        clip-path: circle(34.5% at 50% 47%);
+        position: relative;
+        left: -5%;
+
+    }
+
+    #am2 {
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        clip-path: circle(34.5% at 50% 47%);
+        position: relative;
+        left: 42%;
+        top: 15%;
+
+    }
+
+
+    #box {
+        height: 330px;
+        width: 270px;
+        background-color: aqua;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px;
+
+
+        #hadding {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            color: rgb(10, 29, 123);
+
+
+        }
+
+        #info {
+            color: black;
+            margin: 3%;
+            text-align: center;
+        }
+    }
+
+}
+
+.skills {
+
+    height: 450px;
+    width: 320px;
+    border: 3px solid aqua;
+    position: absolute;
+    top: var(--center-y);
+    left: var(--center-x);
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: black;
+    z-index: -1;
+    transition: left 2s;
+
+
+
+
+    #Education {
+        text-align: center;
+        font-size: 180%;
+        font-weight: bold;
+        font-family: "calibri";
+        color: rgb(255, 255, 255);
+    }
+
+
+    #edu1 {
+        position: relative;
+        height: 50px;
+        width: 200px;
+        background-color: aqua;
+        left: 25%;
+        transform: translate(-50%);
+        border-radius: 100px;
+
+        #school {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            color: rgb(19, 13, 108);
+            font-family: "calibri";
+            font-size: 90%;
+            line-height: 1;
+            white-space: nowrap;
+            margin-left: 4%;
+
+        }
+    }
+
+    #edu2 {
+        position: relative;
+        height: 50px;
+        width: 200px;
+        background-color: aqua;
+        left: 75%;
+        transform: translate(-50%);
+        border-radius: 100px;
+
+
+    }
+
+    #college {
+        position: absolute;
+        top: 20%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        font-weight: 900;
+        color: rgb(19, 13, 108);
+        font-family: "calibri";
+        font-size: 89%;
+        line-height: 1;
+        white-space: nowrap;
+
+
+    }
+
+
+    #skill {
+        text-align: center;
+        font-size: 180%;
+        font-weight: bold;
+        font-family: "calibri";
+        color: rgb(255, 255, 255);
+    }
+
+    #skill1 {
+        position: relative;
+        height: 50px;
+        width: 200px;
+        background-color: aqua;
+        left: 25%;
+        transform: translate(-50%);
+        border-radius: 100px;
+
+        #school1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            color: rgb(19, 13, 108);
+            font-family: "calibri";
+            font-size: 90%;
+            line-height: 1;
+            white-space: nowrap;
+            margin-left: 4%;
+
+        }
+    }
+
+    #skill2 {
+        position: relative;
+        height: 50px;
+        width: 200px;
+        background-color: aqua;
+        left: 75%;
+        transform: translate(-50%);
+        border-radius: 100px;
+
+
+    }
+
+
+}
+   
+  }
+
+  @media screen and (min-width: 300px ) and (max-width:500px) { 
+    .card {
+        height: 90vh;
+        width: 94vw;
+        border: 3px solid aqua;
+        position: relative;
+        border-radius: 5%;
+        overflow: hidden;
+        background-color: black;
+        
+        display: block;
+        #top-cir {
+            clip-path: circle(54% at 0 0);
+            background-color: aqua;
+            height: 67vh;
+            width: 60vw;
+            
+    
+    
+        }
+    
+        #img {
+            height: 25vh;
+            width: 53vw;
+            border: 4px solid;
+            border-color: rgb(0, 0, 0);
+            border-radius: 50%;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+    
+        }
+    
+    
+    
+        #name {
+            position: absolute;
+            top: 43%;
+            left: 50%;
+            color: aliceblue;
+            transform: translate(-50%, -50%);
+            font-family: "Calibri";
+            font-weight: 900;
+            white-space: nowrap;
+            font-size: 160%;
+            font-style: oblique;
+        }
+    
+    
+        #prof {
+            position: absolute;
+            top: 43.5vh;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Hind Mysuru", sans-serif;
+            font-weight: 500;
+            white-space: nowrap;
+            font-size: 130%;
+            color: rgba(209, 200, 200, 0.878);
+        }
+    
+        #hire {
+            position: absolute;
+            left: 52vw;
+            top: 60vh;
+    
+            height: 6vh;
+            width: 35vw;
+            border-radius: 50px;
+            background-color: aqua;
+            border: 0px solid aqua;
+            color: black;
+            font-family: "Calibri";
+            font-weight: bold;
+            font-size: 100%;
+            text-align: center;
+            box-shadow: 0px 0px 0px 0px white;
+            cursor: pointer;
+    
+    
+    
+    
+        }
+    
+        #hire:hover {
+            box-shadow: 0px 0px 15px 5px white;
+    
+    
+        }
+    
+    
+        #project {
+            position: absolute;
+            left: 8vw;
+            top: 60vh;
+    
+            height: 6vh;
+            width: 35vw;
+            border-radius: 50px;
+            background-color: aqua;
+            border: 0px solid aqua;
+            color: black;
+            font-family: "Calibri";
+            font-weight: bold;
+            font-size: 100%;
+            text-align: center;
+            cursor: pointer;
+    
+        }
+    
+        #project:hover {
+            box-shadow: 0px 0px 15px 5px white;
+    
+    
+        }
+
+        #edu_skill {
+            position: absolute;
+            left: 52vw;
+            top: 70vh;
+    
+            height: 6vh;
+            width: 35vw;
+            border-radius: 50px;
+            background-color: aqua;
+            border: 0px solid aqua;
+            color: black;
+            font-family: "Calibri";
+            font-weight: bold;
+            font-size: 100%;
+            text-align: center;
+            box-shadow: 0px 0px 0px 0px white;
+            cursor: pointer;
+    
+    
+    
+    
+        }
+    
+        #hire:hover {
+            box-shadow: 0px 0px 15px 5px white;
+    
+    
+        }
+    
+    
+        #about {
+            position: absolute;
+            left: 8vw;
+            top: 70vh;
+    
+            height: 6vh;
+            width: 35vw;
+            border-radius: 50px;
+            background-color: aqua;
+            border: 0px solid aqua;
+            color: black;
+            font-family: "Calibri";
+            font-weight: bold;
+            font-size: 100%;
+            text-align: center;
+            cursor: pointer;
+            
+    
+        }
+    
+        #project:hover {
+            box-shadow: 0px 0px 15px 5px white;
+    
+    
+        }
+    
+    
+    
+    
+        #facebook {
+            position: absolute;
+            top: 3%;
+            left: 90%;
+    
+        }
+    
+        #linkdin {
+            position: absolute;
+            top: 10%;
+            left: 90%;
+    
+        }
+    
+        #mail {
+            position: absolute;
+            top: 17%;
+            left: 90%
+        }
+    
+    }
+
+
+    
+.about_me {
+
+    height: 90vh;
+        width: 94vw;
+        border: 3px solid aqua;
+        position: relative;
+        border-radius: 5%;
+        overflow: hidden;
+        background-color: black;
+       
+        display: none;
+        
+        
+
+    #am1 {
+        height: 35vh;
+        width: 40vw;
+        background-color: aqua;
+        clip-path: circle(30% at 50% 50%);
+        position: relative;
+        left: vw;
+        top:3vh;
+
+    }
+
+    #am2 {
+        height: 35vh;
+        width: 40vw;
+        background-color: aqua;
+        clip-path: circle(30% at 50% 50%);
+        position: relative;
+        left: 53vw;
+        top: 16vh;
+
+    }
+
+
+    #box {
+        height: 60vh;
+        width: 75vw;
+        background-color: aqua;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px;
+
+
+        #hadding {
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            color: rgb(10, 29, 123);
+
+
+        }
+
+        #info {
+            color: black;
+            margin: 3%;
+            text-align: center;
+            font-size:117%;
+        }
+    }
+
+}
+
+
+
+.skills {
+    height: 90vh;
+    width: 94vw;
+    border: 3px solid aqua;
+    position: relative;
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: black;
+    cursor: pointer;
+    
+    display: none;
+
+
+    #Education {
+        text-align: center;
+        font-size: 180%;
+        font-weight: bold;
+        font-family: "calibri";
+        color: rgb(255, 255, 255);
+    }
+
+
+    #edu1 {
+        position: relative;
+        height: 7vh;
+        width: 62vw;
+        background-color: aqua;
+        left: 25%;
+        transform: translate(-50%);
+        border-radius: 100px;
+        margin-bottom: 3vh;
+        margin-top:5vh;
+
+        #school {
+            position: absolute;
+            top: 27%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            color: rgb(19, 13, 108);
+            font-family: "calibri";
+            font-size: 90%;
+            line-height: 1;
+            white-space: nowrap;
+            margin-left: 4%;
+
+        }
+    }
+
+    #edu2 {
+        position: relative;
+        height: 7vh;
+        width: 62vw;
+        background-color: aqua;
+        left: 75%;
+        transform: translate(-50%);
+        border-radius: 100px;
+        
+
+
+    }
+
+    #college {
+        position: absolute;
+        top: 27%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        font-weight: 900;
+        color: rgb(19, 13, 108);
+        font-family: "calibri";
+        font-size: 89%;
+        line-height: 1;
+        white-space: nowrap;
+
+
+    }
+
+
+    #skill {
+        text-align: center;
+        font-size: 180%;
+        font-weight: bold;
+        font-family: "calibri";
+        color: rgb(255, 255, 255);
+        margin-bottom: 3vh;
+        margin-top:8vh;
+    }
+
+    #skill1 {
+        position: relative;
+        height: 7vh;
+        width: 62vw;
+        background-color: aqua;
+        left: 25%;
+        transform: translate(-50%);
+        border-radius: 100px;
+        margin-bottom: 3vh;
+        margin-top:5vh;
+
+        #school1 {
+            position: absolute;
+            top: 27%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            color: rgb(19, 13, 108);
+            font-family: "calibri";
+            font-size: 90%;
+            line-height: 1;
+            white-space: nowrap;
+            margin-left: 4%;
+
+        }
+    }
+
+    #skill2 {
+        position: relative;
+        height: 7vh;
+        width: 62vw;
+        background-color: aqua;
+        left: 75%;
+        transform: translate(-50%);
+        border-radius: 100px;
+
+
+    }
+
+
+
+    
+}
+#close_div{
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+#close{
+    background-color: rgba(255, 0, 0, 0.6);
+    color:white;
+    font-weight: 700;
+    width:30vw;
+    height:5vh;
+    border: 0px solid rgba(158, 67, 67, 0);
+    border-radius:5px;
+    font-size:100%;
+
+}
+
+
+
+
+
+}
+
+
+  
