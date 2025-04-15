@@ -80,3 +80,11 @@ function close1() {
 
 
 }
+
+
+
+function projects() {
+
+    alert("This feature was under development.")
+    
+}
