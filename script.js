@@ -90,7 +90,7 @@ function projects() {
 
 
 function isFacebookInAppBrowser() {
-    return /FBAN|FBAV/i.test(navigator.userAgent);
+    return /FBAN|FBAV|Instagram/i.test(navigator.userAgent);
   }
 
   // Check if opened in Facebook's internal browser
