@@ -1,129 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="Style.css">
-    <meta name="color-scheme" content="light dark">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
-        rel="stylesheet">
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
-        rel="stylesheet">
-
-
-
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
 </head>
-
 <body>
-    <div id="y">
-    <div id="x">
-    <div class="card">
-        <div id="top-cir"></div>
-        <img id="img" src="img/img2.jpg" alt="dp" />
-        <P id="name">Subhra Prakash</P>
-        <p id="prof">Web Devloper || QA Tester</p>
-        <a href="mailto:gc.digital.max.official@gmail.com"><button type="button" id="hire">Hire Me</button></a>
-        <a href=""><button type="button" id="project" onclick="projects()">Project</button></a>
-        <a onclick="about_me()"><button type="button" id="about">About Me</button></a>
-        <a onclick="edu_skills()"><button type="button" id="edu_skill">Edu. & Skills</button></a>
-        <a target="_blank" href="https://www.facebook.com/subhraprakash.maikap.12" id="facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-facebook"
-                viewBox="0 0 16 16">
-                <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-            </svg>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/subhra-prakash512/" id="linkdin">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-linkedin"
-                viewBox="0 0 16 16">
-                <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-            </svg>
-        </a>
-        <a href="mailto:gc.digital.max.official@gmail.com" id="mail" >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white"
-                class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
-                <path
-                    d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
-                <path
-                    d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
-            </svg>
-        </a>
+
+    <div id="main">
+
+        <div class="div_pro" id="div_num_"><a href="https://subhra12356789.github.io/Weather-update/" class="pro_image"  loding="lazy"><img src="image/WhatsApp Image 2025-04-17 at 20.09.09_1c16fdfe.jpg" class="image" alt="image" srcset=""></a></div>
+        <div class="div_pro" id="div_num_"><a href="https://subhra12356789.github.io/Temperature-converter-webpage/" class="pro_image"  loding="lazy"><img src="image/WhatsApp Image 2025-04-17 at 20.32.24_2732e874.jpg" class="image" alt="image" srcset=""></a></div>
+        <!--<div class="div_pro" id="div_num_"><a href="" class="pro_image"  loding="lazy"><img src="image/" class="image" alt="image" srcset=""></a></div>
+        <div class="div_pro" id="div_num_"><a href="" class="pro_image"  loding="lazy"><img src="image/" class="image" alt="image" srcset=""></a></div>
+        <div class="div_pro" id="div_num_"><a href="" class="pro_image"  loding="lazy"><img src="image/" class="image" alt="image" srcset=""></a></div>
+        <div class="div_pro" id="div_num_"><a href="" class="pro_image"  loding="lazy"><img src="image/" class="image" alt="image" srcset=""></a></div>
+        <div class="div_pro" id="div_num_"><a href="" class="pro_image"  loding="lazy"><img src="image/" class="image" alt="image" srcset=""></a></div>
+       -->
 
 
     </div>
-
-
-    <div class="about_me">
-        <div id="am1"></div>
-        <div id="am2"></div>
-
-        <div id="box">
-            <p id="hadding">About Me</p>
-            <p id="info">Hi 👋 It’s me, Subhra Prakash — a BCA student and passionate Web Developer & QA Tester. I specialize in creating responsive, user-friendly websites using modern tools and technologies, and I ensure their quality through thorough manual testing. With a love for learning and problem-solving, I aim to craft innovative web solutions and grow as a tech professional.
-
-
-            </p>
-
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="close_div">
-            <button id="close" onclick="close1()">Close</button>
-        </div>
-
-
-
-    </div>
-
-    <div class="skills">
-        <p id="Education">Education</p>
-        <div id="edu1">
-            <p id="school">I Completed My Schooling <br>
-                at &#127979;CUHS & STNI</p>
-        </div> <br>
-        <div id="edu2">
-            <p id="college">I have Completed my BCA <br>
-                in TINT (Currently Ongoing)</p>
-        </div>
-        <p id="skill">Skills</p>
-        <div id="skill1">
-            <p id="school1">Front-End Development</p>
-        </div>
-        <br>
-        <div id="skill2">
-            <p id="college">QA Testing (Manual)</p>
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="close_div">
-            <button id="close" onclick="close1()">Close</button>
-        </div>
-
-
-
-
-    </div>
-</div>
-</div>
-    <script src="script.js">
-
-    </script>
+    
 </body>
-
 </html>
