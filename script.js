@@ -95,7 +95,7 @@ function isFacebookInAppBrowser() {
     alert("This website cannot be opened in the Facebook internal browser. Please select an external browser to continue.");
     card.style.visibility="hidden";
     // Create a link to force the page open in an external browser
-    window.location.href = "intent://subhra12356789.github.io/SubhraPrakash/#Intent;scheme=https;package=com.android.chrome;end";
+    window.location.href = "intent://subhra-prakash512.github.io/SubhraPrakash/#Intent;scheme=https;package=com.android.chrome;end";
     setTimeout(showAlertAndRefresh, 10000);
   }
 
